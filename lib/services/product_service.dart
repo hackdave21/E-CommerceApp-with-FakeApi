@@ -5,7 +5,6 @@ import 'package:dio/dio.dart';
 class ProductService {
   final String _apiUrl = 'https://fakestoreapi.com/products';
   final Dio _dio = Dio();
-
   Future<List<Product>> fetchProducts() async {
     try {
       final response = await _dio.get(_apiUrl);

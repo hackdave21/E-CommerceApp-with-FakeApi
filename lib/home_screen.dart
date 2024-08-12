@@ -70,8 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         );
                       },
-                      child: Container(
-                        
+                      child: Container(                      
                         decoration: BoxDecoration(
                           color: const Color(0xFFD4F7FF),
                           borderRadius: BorderRadius.circular(12.0),
