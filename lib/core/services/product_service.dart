@@ -1,5 +1,5 @@
 
-import 'package:apiessai/models/product_model.dart';
+import 'package:apiessai/data/models/product_model.dart';
 import 'package:dio/dio.dart';
 
 class ProductService {
