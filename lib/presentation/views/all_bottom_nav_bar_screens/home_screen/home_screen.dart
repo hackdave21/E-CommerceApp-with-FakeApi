@@ -1,4 +1,4 @@
-import 'package:apiessai/presentation/product_details_screen.dart';
+import 'package:apiessai/presentation/views/all_bottom_nav_bar_screens/home_screen/product_details_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:apiessai/core/services/product_service.dart';
 import 'package:apiessai/data/models/product_model.dart';
