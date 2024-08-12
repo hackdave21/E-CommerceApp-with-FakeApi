@@ -13,19 +13,22 @@ class CustomButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onTap,  
-      child: Container(
-        width: double.infinity,
-        decoration: BoxDecoration(
-          color: AppTheme.primaryColor,
-          borderRadius: BorderRadius.circular(15),
-        ),
-        padding: const EdgeInsets.symmetric(vertical: 15),
-        child: Center( 
-          child: Text(
-            text, 
-            style: AppTheme().stylish1(15, AppTheme.white),
+    return Padding(
+      padding: const EdgeInsets.all(12),
+      child: InkWell(
+        onTap: onTap,  
+        child: Container(
+          width: double.infinity,
+          decoration: BoxDecoration(
+            color: AppTheme.primaryColor,
+            borderRadius: BorderRadius.circular(15),
+          ),
+          padding: const EdgeInsets.symmetric(vertical: 15),
+          child: Center( 
+            child: Text(
+              text, 
+              style: AppTheme().stylish1(15, Colors.black),
+            ),
           ),
         ),
       ),
