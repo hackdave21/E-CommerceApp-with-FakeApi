@@ -41,21 +41,21 @@ class _BottomNavBarState extends State<BottomNavBar> {
         child: GNav(
           rippleColor: Colors.grey.shade300,
           hoverColor: Colors.grey.shade700,
-          haptic: true, // haptic feedback
+          haptic: true,
           tabBorderRadius: 15,
-          tabActiveBorder: Border.all(color: Colors.black, width: 1), // tab button border
-          tabBorder: Border.all(color: Colors.grey, width: 1), // tab button border
+          tabActiveBorder: Border.all(color: Colors.white, width: 1), 
+          tabBorder: Border.all(color: Colors.grey, width: 1), 
           tabShadow: [
           BoxShadow(color: Colors.grey.withOpacity(0.5), blurRadius: 8)
-          ], // tab button shadow
-          curve: Curves.easeOutExpo, // tab animation curves
-          duration: const Duration(milliseconds: 900), // tab animation duration
-          gap: 8, // the tab button gap between icon and text
-          color: Colors.grey[800], // unselected icon color
-          activeColor: AppTheme.white, // selected icon and text color
-          iconSize: 24, // tab button icon size
-          tabBackgroundColor: AppTheme.primaryColor, // selected tab background color
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5), // navigation bar padding
+          ], 
+          curve: Curves.easeOutExpo, 
+          duration: const Duration(milliseconds: 400), 
+          gap: 8, 
+          color: Colors.white, 
+          activeColor: AppTheme.white, 
+          iconSize: 24, 
+          tabBackgroundColor: AppTheme.primaryColor, 
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5), 
           selectedIndex: _selectedIndex,
           onTabChange: _onItemTapped,
           tabs: const [

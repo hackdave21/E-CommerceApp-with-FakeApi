@@ -27,7 +27,7 @@ class CustomButton extends StatelessWidget {
           child: Center( 
             child: Text(
               text, 
-              style: AppTheme().stylish1(15, Colors.black),
+              style: AppTheme().buttonTextStyle(15, Colors.black),
             ),
           ),
         ),

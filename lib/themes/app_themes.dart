@@ -9,23 +9,24 @@ class AppTheme {
   static const String fontFamilyLato = "Lato";
   static const String fontFamilyQuick = "Quicksand";
 
-  TextStyle stylish1(double size, Color color, {bool isBold = false}) {
-    return GoogleFonts.raleway(
+  
+  TextStyle appStyle(double size, Color color, {bool isBold = false}) {
+    return GoogleFonts.mPlusRounded1c(
       fontSize: size,
       fontWeight: isBold ? FontWeight.bold : FontWeight.normal,
       color: color,
     );
   }
 
-  TextStyle stylish2(double size, Color color, {bool isBold = false}) {
-    return GoogleFonts.comfortaa(
+   TextStyle buttonTextStyle(double size, Color color, {bool isBold = false}) {
+    return GoogleFonts.dmSans(
       fontSize: size,
       fontWeight: isBold ? FontWeight.bold : FontWeight.normal,
       color: color,
     );
   }
 
-  TextStyle stylish3(double size, Color color, {bool isBold = false}) {
+  TextStyle alternativeStyle(double size, Color color, {bool isBold = false}) {
     return GoogleFonts.itim(
       fontSize: size,
       fontWeight: isBold ? FontWeight.bold : FontWeight.normal,

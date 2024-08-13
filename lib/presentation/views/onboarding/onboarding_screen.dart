@@ -23,7 +23,7 @@ class OnboardingScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                const  HeroIcon(HeroIcons.bolt, size: 40,),
-                Text("FastShop", style: AppTheme().stylish3(25, AppTheme.black, isBold: true ))
+                Text("FastShop", style: AppTheme().appStyle(25, AppTheme.black, isBold: true ))
               ],
             ),
              SizedBox(
@@ -33,8 +33,8 @@ class OnboardingScreen extends StatelessWidget {
              SizedBox(
               height: context.heightPercent(2),
             ),
-             Text("New Fashion Collection", style: AppTheme().stylish3(15, AppTheme.black )),
-              Text("Shop Smarter, Faster with FastShop", style: AppTheme().stylish3(20, AppTheme.black, isBold: true )),
+             Text("New Fashion Collection", style: AppTheme().appStyle(15, AppTheme.black )),
+              Text("Shop Smarter, Faster with FastShop", style: AppTheme().appStyle(20, AppTheme.black, isBold: true )),
               SizedBox(
                 height: context.heightPercent(7),
               ),
